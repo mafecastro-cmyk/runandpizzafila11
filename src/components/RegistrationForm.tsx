@@ -50,7 +50,13 @@ export function RegistrationForm() {
         </div>
       </div>
 
-      <Field label="Dirección" name="ADDRESS[addr1]" type="text" className="md:col-span-2" />
+      <Field
+        label="Dirección"
+        name="DIRECCION"
+        type="text"
+        className="md:col-span-2"
+        maxLength={70}
+      />
 
       <div className="md:col-span-2">
         <Label>¿Sufre de alguna condición de salud?</Label>
@@ -127,17 +133,26 @@ function Field({
   type,
   className = "",
   required,
+  maxLength,
 }: {
   label: string;
   name: string;
   type: string;
   className?: string;
   required?: boolean;
+  maxLength?: number;
 }) {
   return (
     <div className={className}>
       <Label>{label}</Label>
-      <input name={name} type={type} required={required} className={fieldClass} placeholder=" " />
+      <input
+        name={name}
+        type={type}
+        required={required}
+        maxLength={maxLength}
+        className={fieldClass}
+        placeholder=" "
+      />
     </div>
   );
 }
