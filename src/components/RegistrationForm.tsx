@@ -105,6 +105,9 @@ export function RegistrationForm() {
         LNAME: lname,
         ADDRESS: parsed.data.direccion,
         PHONE: parsed.data.telefono,
+        SHIRT: parsed.data.talla,
+        HEALTH: parsed.data.condicion === "si" ? "Si" : "No",
+        HEALTH_D: parsed.data.condicionDetalle ?? "",
       });
       if (res.result === "success") {
         toast.success("¡Inscripción confirmada!");
