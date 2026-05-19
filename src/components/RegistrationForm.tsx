@@ -133,17 +133,26 @@ function Field({
   type,
   className = "",
   required,
+  maxLength,
 }: {
   label: string;
   name: string;
   type: string;
   className?: string;
   required?: boolean;
+  maxLength?: number;
 }) {
   return (
     <div className={className}>
       <Label>{label}</Label>
-      <input name={name} type={type} required={required} className={fieldClass} placeholder=" " />
+      <input
+        name={name}
+        type={type}
+        required={required}
+        maxLength={maxLength}
+        className={fieldClass}
+        placeholder=" "
+      />
     </div>
   );
 }
