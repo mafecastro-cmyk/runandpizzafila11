@@ -50,7 +50,13 @@ export function RegistrationForm() {
         </div>
       </div>
 
-      <Field label="Dirección" name="ADDRESS[addr1]" type="text" className="md:col-span-2" />
+      <Field
+        label="Dirección"
+        name="DIRECCION"
+        type="text"
+        className="md:col-span-2"
+        maxLength={70}
+      />
 
       <div className="md:col-span-2">
         <Label>¿Sufre de alguna condición de salud?</Label>
