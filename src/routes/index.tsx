@@ -88,7 +88,7 @@ function Index() {
                 Corre. <span className="text-editorial-italic">Comparte.</span> Celebra.
               </p>
               <p className="mt-5 text-base md:text-lg lg:text-xl text-heritage/80 leading-relaxed font-sans tracking-wide md:whitespace-nowrap">
-                Running, comunidad y estilo de vida italiano en una sola experiencia.
+                Una experiencia deportiva con sabor italiano.
               </p>
             </div>
           </div>
