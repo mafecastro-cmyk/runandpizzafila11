@@ -14,6 +14,7 @@ import p3 from "@/assets/product-3.jpg";
 import p4 from "@/assets/product-4.jpg";
 import filaNeon from "@/assets/fila-neon-logo.png";
 import runPizzaGraphic from "@/assets/run-pizza-graphic.png";
+import bannerRunPizza from "@/assets/banner-run-pizza.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -56,44 +57,27 @@ function Index() {
       <Nav />
       <Toaster position="bottom-center" />
 
-      {/* HERO */}
-      <section className="relative min-h-screen w-full bg-[var(--slate-black)] text-heritage overflow-hidden grain">
+      {/* HERO BANNER */}
+      <section className="relative w-full bg-[var(--slate-black)] pt-20 md:pt-24">
         <img
-          src={heroImg}
-          alt="Corredores urbanos al atardecer en una calle italiana"
-          width={1920}
-          height={1080}
-          className="absolute inset-0 h-full w-full object-cover opacity-95"
+          src={bannerRunPizza.url}
+          alt="FILA Run & Pizza — Sportline"
+          width={1985}
+          height={650}
+          className="block w-full h-auto"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[var(--slate-black)]/70 via-[var(--slate-black)]/25 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[var(--slate-black)]/85 via-transparent to-[var(--slate-black)]/30" />
-
-        {/* Subtle neon ambient lights */}
-        <div className="neon-glow-red" style={{ width: 520, height: 520, top: "-120px", left: "-120px" }} />
-        <div className="neon-glow-blue" style={{ width: 600, height: 600, bottom: "-180px", right: "-160px" }} />
-
-        {/* Vertical stripes overlay */}
-        <div className="absolute right-10 top-1/3 h-64 hidden md:block text-[var(--fila-red)] opacity-90">
-          <FilaStripes orientation="vertical" animated />
-        </div>
-
-        <div className="relative z-10 mx-auto max-w-[1680px] px-6 md:px-10 pt-40 md:pt-48 pb-24 min-h-screen flex flex-col justify-end">
-          <div className="max-w-5xl">
-            <h1 className="text-editorial text-heritage leading-[0.82] tracking-tight text-[28vw] sm:text-[24vw] md:text-[20vw] lg:text-[17vw] xl:text-[16vw]">
-              <span className="block neon-text-red">Run</span>
-              <span className="block text-editorial-italic">&amp; Pizza</span>
-            </h1>
-            <div className="mt-8 md:mt-10 max-w-none">
-              <p className="text-editorial text-heritage text-4xl md:text-5xl lg:text-6xl leading-[0.95]">
-                Corre. <span className="text-editorial-italic">Comparte.</span> Celebra.
-              </p>
-              <p className="mt-5 text-base md:text-lg lg:text-xl text-heritage/80 leading-relaxed font-sans tracking-wide md:whitespace-nowrap">
-                Una experiencia deportiva con sabor italiano.
-              </p>
-            </div>
+        <div className="bg-[var(--slate-black)] text-heritage px-6 md:px-10 py-12 md:py-16">
+          <div className="mx-auto max-w-[1680px] text-center">
+            <p className="text-editorial text-heritage text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
+              Corre. <span className="text-editorial-italic">Comparte.</span> Celebra.
+            </p>
+            <p className="mt-5 text-base md:text-lg lg:text-xl text-heritage/80 leading-relaxed font-sans tracking-wide">
+              Una experiencia deportiva con sabor italiano.
+            </p>
           </div>
         </div>
       </section>
+
 
       {/* MARQUEE — slim & elegant */}
       <section className="bg-[var(--slate-black)] text-heritage border-y border-heritage/10 overflow-hidden py-4">
@@ -181,7 +165,7 @@ function Index() {
           </div>
 
           <div className="relative grid grid-cols-1 md:grid-cols-3 reveal-up neon-grid-top">
-            <InfoCell label="Fecha" value="11 de junio" sub="2026" />
+            <InfoCell label="Fecha" value="11" sub="de junio 2026" />
             <InfoCell label="Hora" value="6:00 PM" />
             <InfoCell label="Lugar" value="Plaza Downtown" sub="Costa del Este, Panamá" last />
           </div>
