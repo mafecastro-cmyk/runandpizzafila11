@@ -322,7 +322,7 @@ function InfoCell({
       }`}
     >
       <div className="label-tech text-[var(--slate-black)]/55 mb-6">{label}</div>
-      <div className="text-editorial text-5xl md:text-7xl">{value}</div>
+      <div className="text-editorial text-5xl md:text-7xl" style={{ fontVariantNumeric: "lining-nums tabular-nums", fontStyle: "normal" }}>{value}</div>
       {tz ? <div className="mt-1 label-tech text-[var(--slate-black)]/45">{tz}</div> : null}
       {sub ? <div className="mt-4 text-[var(--slate-black)]/70">{sub}</div> : null}
     </div>
