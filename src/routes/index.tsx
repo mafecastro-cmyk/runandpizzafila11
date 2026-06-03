@@ -59,14 +59,7 @@ function Index() {
 
       {/* HERO BANNER */}
       <section className="relative w-full bg-[var(--slate-black)] pt-20 md:pt-24">
-        <img
-          src={bannerRunPizza.url}
-          alt="FILA Run & Pizza — Sportline"
-          width={1985}
-          height={650}
-          className="block w-full h-auto"
-        />
-        <div className="bg-[var(--slate-black)] text-heritage px-6 md:px-10 py-12 md:py-16">
+        <div className="relative bg-[var(--slate-black)] text-heritage px-6 md:px-10 pt-12 md:pt-16 pb-20 md:pb-28">
           <div className="mx-auto max-w-[1680px] text-center">
             <p className="text-editorial text-heritage text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
               Corre. <span className="text-editorial-italic">Comparte.</span> Celebra.
@@ -75,8 +68,18 @@ function Index() {
               Una experiencia deportiva con sabor italiano.
             </p>
           </div>
+          {/* Fade negro a transparente hacia el banner */}
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 md:h-32 bg-gradient-to-b from-[var(--slate-black)] to-transparent" />
         </div>
+        <img
+          src={bannerRunPizza.url}
+          alt="FILA Run & Pizza — Sportline"
+          width={1985}
+          height={650}
+          className="block w-full h-auto"
+        />
       </section>
+
 
 
       {/* MARQUEE — slim & elegant */}
