@@ -88,7 +88,7 @@ function Index() {
                 Corre. <span className="text-editorial-italic">Comparte.</span> Celebra.
               </p>
               <p className="mt-5 text-base md:text-lg lg:text-xl text-heritage/80 leading-relaxed font-sans tracking-wide md:whitespace-nowrap">
-                Running, comunidad y estilo de vida italiano en una sola experiencia.
+                Una experiencia deportiva con sabor italiano.
               </p>
             </div>
           </div>
@@ -181,9 +181,9 @@ function Index() {
           </div>
 
           <div className="relative grid grid-cols-1 md:grid-cols-3 reveal-up neon-grid-top">
-            <InfoCell label="Fecha" value="21 de mayo" sub="2026" />
+            <InfoCell label="Fecha" value="11 de junio" sub="2026" />
             <InfoCell label="Hora" value="6:00 PM" />
-            <InfoCell label="Lugar" value="Plaza TAF" sub="Costa del Este, Panamá" last />
+            <InfoCell label="Lugar" value="Plaza Downtown" sub="Costa del Este, Panamá" last />
           </div>
         </div>
       </section>
@@ -215,8 +215,8 @@ function Index() {
             </div>
             <div className="col-span-12 lg:col-start-9 lg:col-span-4 flex flex-col justify-end space-y-8 reveal-up">
               <p className="text-xl md:text-2xl text-heritage font-light leading-relaxed">
-                Cierra la jornada con música, pizza y comunidad en{" "}
-                <span className="text-editorial-italic">Botánica</span> — TAF Costa del Este.
+                Después de la corrida participa del After en el restaurante{" "}
+                <span className="text-editorial-italic">Katané</span> Costa del Este.
               </p>
               <blockquote className="border-l-2 border-[var(--fila-red)] pl-6 text-heritage/75 italic font-serif text-2xl leading-snug">
                 “Música, pizza, comunidad y la mejor vibra para cerrar la noche.”
@@ -302,8 +302,8 @@ function Index() {
 
           {/* CTA below carousel */}
           <div className="mt-16 flex items-center justify-center reveal-up">
-            <a href="https://filalatin.com/" className="cta-pill cta-pill-outline text-[var(--slate-black)]">
-              Ver colección FILA
+            <a href="https://filalatin.com/collections/running" className="cta-pill cta-pill-outline text-[var(--slate-black)]">
+              Ver productos FILA
             </a>
           </div>
         </div>
