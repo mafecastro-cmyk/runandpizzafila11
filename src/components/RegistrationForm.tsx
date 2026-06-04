@@ -51,8 +51,8 @@ export function RegistrationForm() {
       </div>
 
       <Field
-        label="Dirección"
-        name="DIRECCION"
+        label="Ciudad"
+        name="ADRESS"
         type="text"
         className="md:col-span-2"
         maxLength={70}
