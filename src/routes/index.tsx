@@ -14,7 +14,7 @@ import p3 from "@/assets/product-3.jpg";
 import p4 from "@/assets/product-4.jpg";
 import filaNeon from "@/assets/fila-neon-logo.png";
 import runPizzaGraphic from "@/assets/run-pizza-graphic.png";
-import bannerRunPizza from "@/assets/banner-run-pizza.png.asset.json";
+import bannerRunPizza from "@/assets/banner-run-pizza-sportline.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -59,18 +59,6 @@ function Index() {
 
       {/* HERO BANNER */}
       <section className="relative w-full bg-[var(--slate-black)] pt-20 md:pt-24">
-        <div className="relative bg-[var(--slate-black)] text-heritage px-6 md:px-10 pt-12 md:pt-16 pb-20 md:pb-28">
-          <div className="mx-auto max-w-[1680px] text-center">
-            <p className="text-editorial text-heritage text-4xl md:text-5xl lg:text-6xl leading-[1.05]">
-              Corre. <span className="text-editorial-italic">Comparte.</span> Celebra.
-            </p>
-            <p className="mt-5 text-base md:text-lg lg:text-xl text-heritage/80 leading-relaxed font-sans tracking-wide">
-              Una experiencia deportiva con sabor italiano.
-            </p>
-          </div>
-          {/* Fade negro a transparente hacia el banner */}
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 md:h-32 bg-gradient-to-b from-[var(--slate-black)] to-transparent" />
-        </div>
         <img
           src={bannerRunPizza.url}
           alt="FILA Run & Pizza — Sportline"
