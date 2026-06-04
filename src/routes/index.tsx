@@ -6,7 +6,7 @@ import { RegistrationForm } from "@/components/RegistrationForm";
 import { Toaster } from "@/components/ui/sonner";
 import { useReveal } from "@/hooks/use-reveal";
 import heroImg from "@/assets/hero-runners.jpg";
-import afterRun from "@/assets/after-run.jpg";
+import afterRunAsset from "@/assets/after-run-new.jpg.asset.json";
 import eventRunner from "@/assets/event-runner.jpg";
 import p1 from "@/assets/product-1.jpg";
 import p2 from "@/assets/product-2.jpg";
@@ -14,7 +14,9 @@ import p3 from "@/assets/product-3.jpg";
 import p4 from "@/assets/product-4.jpg";
 import filaNeon from "@/assets/fila-neon-logo.png";
 import runPizzaGraphic from "@/assets/run-pizza-graphic.png";
-import bannerRunPizza from "@/assets/banner-run-pizza-sportline.png.asset.json";
+import bannerRunPizza from "@/assets/imagen-banner.png.asset.json";
+
+const afterRun = afterRunAsset.url;
 
 export const Route = createFileRoute("/")({
   component: Index,
