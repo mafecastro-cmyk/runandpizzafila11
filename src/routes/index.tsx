@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Una experiencia FILA que une running, comunidad y estilo de vida italiano. 22 de Mayo 2026 · Plaza TAF, Costa del Este.",
+          "Una experiencia FILA que une running, comunidad y estilo de vida italiano. 16 de Julio 2026 · Plaza TAF, Costa del Este.",
       },
       { property: "og:title", content: "FILA RUN & PIZZA" },
       {
@@ -158,7 +158,7 @@ function Index() {
           </div>
 
           <div className="relative grid grid-cols-1 md:grid-cols-3 reveal-up neon-grid-top">
-            <InfoCell label="Fecha" value="11 de Junio" sub="2026" />
+            <InfoCell label="Fecha" value="16 de Julio" sub="2026" />
             <InfoCell label="Hora" value="6:00 PM" />
             <InfoCell label="Lugar" value="Plaza Downtown" sub="Costa del Este, Panamá" last />
           </div>
