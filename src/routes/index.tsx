@@ -14,7 +14,7 @@ import p3 from "@/assets/product-3.jpg";
 import p4 from "@/assets/product-4.jpg";
 import filaNeon from "@/assets/fila-neon-logo.png";
 import runPizzaGraphic from "@/assets/run-pizza-graphic.png";
-import bannerRunPizza from "@/assets/imagen-banner.png.asset.json";
+import bannerRunPizza from "@/assets/BANNER-R_P-III.png.asset.json";
 
 const afterRun = afterRunAsset.url;
 
