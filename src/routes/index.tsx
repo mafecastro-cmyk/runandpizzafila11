@@ -14,7 +14,7 @@ import p3 from "@/assets/product-3.jpg";
 import p4 from "@/assets/product-4.jpg";
 import filaNeon from "@/assets/fila-neon-logo.png";
 import runPizzaGraphic from "@/assets/run-pizza-graphic.png";
-import bannerRunPizza from "@/assets/BANNER-R_P-III.png.asset.json";
+import bannerRunPizza from "@/assets/BANNER-DIGITAL-II-1200x800px_1.png.asset.json";
 
 const afterRun = afterRunAsset.url;
 
@@ -232,9 +232,6 @@ function Index() {
       <section id="productos" className="bg-[var(--heritage)] py-24 md:py-40">
         <div className="mx-auto max-w-[1680px] px-6 md:px-10">
           <div className="mb-16 reveal-up max-w-3xl mx-auto text-center">
-            <span className="label-tech text-[var(--fila-red)]">
-              Recomendación de productos FILA
-            </span>
             <h2 className="text-editorial text-5xl md:text-7xl lg:text-8xl mt-4 leading-[0.95]">
               Corre con <span className="text-editorial-italic">FILA.</span>
             </h2>
