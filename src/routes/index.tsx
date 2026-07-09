@@ -220,12 +220,6 @@ function Index() {
                 <span className="text-editorial-italic">Run &amp; Pizza.</span>
               </h2>
             </div>
-            <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex items-end">
-              <p className="text-heritage/65 text-lg leading-relaxed">
-                Completa tus datos para asegurar tu cupo. Recibirás la confirmación con todos los
-                detalles del evento y un kit de bienvenida.
-              </p>
-            </div>
           </div>
 
           <div className="reveal-up">
@@ -246,7 +240,7 @@ function Index() {
             </h2>
             <p className="mt-6 max-w-xl mx-auto text-[var(--slate-black)]/70 text-lg leading-relaxed">
               Descubre los productos recomendados para vivir la experiencia RUN &amp; PIZZA con
-              comodidad, estilo y rendimiento.
+              comodidad, estilo y rendimiento. Productos sugeridos:
             </p>
           </div>
 
