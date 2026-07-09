@@ -60,7 +60,7 @@ function Index() {
       <Toaster position="bottom-center" />
 
       {/* HERO BANNER */}
-      <section className="relative w-full bg-[var(--slate-black)] pt-20 md:pt-24">
+      <section className="relative w-full bg-[var(--slate-black)] pt-6 md:pt-8">
         <img
           src={bannerRunPizza.url}
           alt="FILA Run & Pizza — Sportline"
