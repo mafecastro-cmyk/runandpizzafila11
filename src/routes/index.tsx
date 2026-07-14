@@ -16,7 +16,7 @@ import filaNeon from "@/assets/fila-neon-logo.png";
 import runPizzaGraphic from "@/assets/run-pizza-graphic.png";
 import bannerRunPizza from "@/assets/BANNER-DIGITAL-II-1200x800px_1.png";
 
-const afterRun = afterRunAsset.url;
+
 
 export const Route = createFileRoute("/")({
   component: Index,
