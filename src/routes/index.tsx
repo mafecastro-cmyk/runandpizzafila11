@@ -62,7 +62,7 @@ function Index() {
       {/* HERO BANNER */}
       <section className="relative w-full bg-[var(--slate-black)] pt-6 md:pt-8">
         <img
-          src={bannerRunPizza.url}
+          src={bannerRunPizza}
           alt="FILA Run & Pizza — Sportline"
           width={1985}
           height={650}
