@@ -6,7 +6,7 @@ import { RegistrationForm } from "@/components/RegistrationForm";
 import { Toaster } from "@/components/ui/sonner";
 import { useReveal } from "@/hooks/use-reveal";
 import heroImg from "@/assets/hero-runners.jpg";
-import afterRunAsset from "@/assets/after-run-new.jpg.asset.json";
+import afterRun from "@/assets/after-run-new.jpg";
 import eventRunner from "@/assets/event-runner.jpg";
 import p1 from "@/assets/product-1.jpg";
 import p2 from "@/assets/product-2.jpg";
